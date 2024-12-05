@@ -105,13 +105,13 @@ poetry add django
 要創建一個新的 Django 專案：
 
 ```bash
-poetry run django-admin startproject poetry_django_api .
+poetry run django-admin startproject poetrydjangoproject .
 ```
 
 要創建一個新的 Django 應用（app）：
 
 ```bash
-poetry run python manage.py startapp poetry_django_app
+poetry run python manage.py startapp poetrydjangoapp
 ```
 
 ### Project Structure
@@ -119,15 +119,15 @@ poetry run python manage.py startapp poetry_django_app
 生成的專案結構如下：
 
 ```
-poetry_django_api/                 # Django 專案目錄
+poetrydjangoproject/               # Django 專案目錄
 ├── .venv/                         # 虛擬環境目錄
-├── poetry_django_api/             # 主 Django 專案目錄
+├── poetrydjangoproject/           # 主 Django 專案目錄
 │   ├── __init__.py                # 初始化文件
 │   ├── asgi.py                    # ASGI 配置
 │   ├── settings.py                # 設定文件
 │   ├── urls.py                    # URL 配置
 │   └── wsgi.py                    # WSGI 配置
-├── poetry_django_app/             # 新增的應用（app）目錄
+├── poetrydjangoapp/               # 新增的應用（app）目錄
 │   ├── migrations/                # 遷移文件
 │   ├── __init__.py                # 初始化文件
 │   ├── admin.py                   # Django 管理後台設定

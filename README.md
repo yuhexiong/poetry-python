@@ -91,13 +91,13 @@ poetry add django
 To create a new Django project:
 
 ```bash
-poetry run django-admin startproject poetry_django_api .
+poetry run django-admin startproject poetrydjangoproject .
 ```
 
 To create a new Django app:
 
 ```bash
-poetry run python manage.py startapp poetry_django_app
+poetry run python manage.py startapp poetrydjangoapp
 ```
 
 ### Project Structure
@@ -105,15 +105,15 @@ poetry run python manage.py startapp poetry_django_app
 The resulting project structure will look like this:
 
 ```
-poetry_django_api/                 # Django project directory
+poetrydjangoproject/               # Django project directory
 ├── .venv/                         # Virtual environment directory
-├── poetry_django_api/             # Main Django project directory
+├── poetrydjangoproject/           # Main Django project directory
 │   ├── __init__.py                # Initialization file
 │   ├── asgi.py                    # ASGI configuration
 │   ├── settings.py                # Settings file
 │   ├── urls.py                    # URL configuration
 │   └── wsgi.py                    # WSGI configuration
-├── poetry_django_app/             # Added application (app) directory
+├── poetrydjangoapp/               # Added application (app) directory
 │   ├── migrations/                # Migration files
 │   ├── __init__.py                # Initialization file
 │   ├── admin.py                   # Django admin settings
