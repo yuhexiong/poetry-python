@@ -1,5 +1,7 @@
 # Poetry
 
+**(also provided Traditional Chinese version document [README-CH.md](README-CH.md).)**
+
 Poetry is a Python dependency and package management tool that simplifies project dependency management, virtual environments, and version control.
 This project demonstrates how to create a virtual environment with Poetry, install Django, and start a simple Django development server.
 
