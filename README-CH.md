@@ -25,21 +25,6 @@ poetry init
 This command will guide you through creating your pyproject.toml config.
 
 Package name [poetry-python]: 
-Version [0.1.0]: 
-Description []: 
-Author [yuhexiong <yuhexiong871210@gmail.com>, n to skip]: 
-License []: 
-Compatible Python versions [^3.12]: 
-
-Would you like to define your main dependencies interactively? (yes/no) [yes] no
-Would you like to define your development dependencies interactively? (yes/no) [yes]
-PS C:\Users\ninaxiong\xiong\poetry-python> ^C
-PS C:\Users\ninaxiong\xiong\poetry-python> ^C
-PS C:\Users\ninaxiong\xiong\poetry-python> poetry init
-
-This command will guide you through creating your pyproject.toml config.
-
-Package name [poetry-python]: 
 Version [0.1.0]:  
 Description []:  
 Author [yuhexiong <yuhexiong871210@gmail.com>, n to skip]:  
